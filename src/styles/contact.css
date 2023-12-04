@@ -1,0 +1,69 @@
+.content-contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-contact-title{
+    margin-top: 64px;
+    color: #836AD7;
+    border-bottom: 4px solid #796CA3;
+}
+
+.content-contact-par{
+    width: 30%;
+    margin-top: 64px;
+}
+
+.content-contact-par p > b{
+    color: blueviolet;
+}
+
+.content-contact-info{
+    width: 40%;
+    height: 40%;
+    padding: 16px ;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 1px #796CA3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.content-contact-info-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.content-contact-info-card a{
+    text-decoration: none;
+    color: blueviolet;
+    margin-left: 32px;
+}
+
+@media screen and (max-width: 500px){
+    .content-contact{
+        height: 97vh;
+    }
+        .content-contact{
+            margin-left: 100px;
+        }
+
+        .content-contact-par{
+            width: 120%;
+            margin-left: 100px;
+        }
+
+        .content-contact-info{
+            width: 120%;
+            margin-left: 100px;
+        }
+}
