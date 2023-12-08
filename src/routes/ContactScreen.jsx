@@ -32,7 +32,6 @@ export const ContactScreen = () => {
           <img src={linkedin} alt="" />
           <a href="https://www.linkedin.com/in/cordoba-cristian-federico-160105231/">Cristian Cordoba</a>
         </section>
-
       </div>
     </div>
   )

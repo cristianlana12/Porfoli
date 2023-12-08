@@ -20,7 +20,7 @@ export const ProjectsScreen = () => {
         <div className='content-projects-card'>
           <div className='card'>
             <a target='https://tateti-or-3inawor.netlify.app' href="https://tateti-or-3inawor.netlify.app" className='card-img'>
-              <img src={TaTeTi} alt="" />
+              <img className="content-projects-card-screen" src={TaTeTi} alt="" />
             </a>
             <section className='card-info'>
               <h2>Ta Te Ti 🎮</h2>
@@ -68,11 +68,11 @@ export const ProjectsScreen = () => {
           <div className='card'>
             <a target='https://aplicacion-busquedapelicula-reactv1.netlify.app' href="https://aplicacion-busquedapelicula-reactv1.netlify.app
 
-" className='card-img'>
+            " className='card-img'>
               <img src={buscadorPelicula} alt="" />
             </a>
             <section className='card-info'>
-            <h2>Movie Search 🍿</h2>
+              <h2>Movie Search 🍿</h2>
               <p>I developed this movie search application, consuming a movie API. It took me approximately 2 days, and the technologies I used were:</p>
               <div className='card-info-skill'>
                 <img src={javaScript} alt="logo skills" />

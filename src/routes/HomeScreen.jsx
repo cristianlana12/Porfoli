@@ -7,6 +7,12 @@ import css from "./img/icons8-css-48.png";
 import git from "./img/icons8-git-48.png";
 import html from "./img/icons8-html-48.png";
 import wordpress from "./img/icons8-wordpress-48.png";
+import linkedin from "./img/icons8-linkedin-50.png";
+import github from "../../icons8-github-50.png";
+import yo from "../../yo.jpg"
+
+
+
 
 
 export const HomeScreen = () => {
@@ -15,19 +21,19 @@ export const HomeScreen = () => {
       <div className="content-home-info">
         <section className='content-home-description'>
           <div>
-            <h1>Front-End <b className='title-color'>Web</b> Developer.</h1>
+            <h1 className='title-responsibe'>Front-End <b className='title-color'>Web</b> Developer.</h1>
             <p>Hi, i am <b className='title-color'>Cristian Cordoba. </b></p>
             <p> A passionate Front-End Web Developer </p>
             <p>from Argentina</p>
             <section className='home-content-work'>
-              <a target='https://www.linkedin.com/in/cordoba-cristian-federico-160105231/' href='https://www.linkedin.com/in/cordoba-cristian-federico-160105231/' ><img className='img-work' src="../../icons8-linkedin-50.png" alt="Logo de linkedin" /></a>
-              <a target='https://github.com/cristianlana12' href='https://github.com/cristianlana12' ><img className='img-work' src="../../icons8-github-50.png" alt="Logo de GitHub" /></a>
+              <a target='https://www.linkedin.com/in/cordoba-cristian-federico-160105231/' href='https://www.linkedin.com/in/cordoba-cristian-federico-160105231/' ><img className='img-work' src={linkedin} alt="Logo de linkedin" /></a>
+              <a target='https://github.com/cristianlana12' href='https://github.com/cristianlana12' ><img className='img-work' src={github} alt="Logo de GitHub" /></a>
             </section>
           </div>
         </section>
 
         <section className='content-home-img'>
-          <img src="../../yo.jpg" alt="picture me" />
+          <img src={yo} alt="picture me" />
         </section>
       </div>
 
